@@ -1,0 +1,8 @@
+.img_wrap{
+    width: 400px;
+    height: 300px;
+    border: 1px dashed #ccc;
+    display: table-cell; //主要是这个属性
+    vertical-align: middle;
+    text-align: center;
+}
