@@ -20,3 +20,9 @@ hexo init xxxx
 ```bash
 hexo s
 ```
+
+## 发布
+```bash
+npm install hexo-deployer-git --save
+hexo d
+```
