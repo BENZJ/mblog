@@ -1,7 +1,7 @@
 ---
 title: linux命令后台执行
 date: 2017-05-28 16:47:35
-tags:
+tags: linux
 ---
 # Linux 将命令放在后台执行
 最近在用docker使用notebook时候，想要将ipython notebook放入后台进行

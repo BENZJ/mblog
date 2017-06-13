@@ -1,7 +1,7 @@
 ---
 title: mac下安装ipython
 date: 2017-05-28 16:47:35
-tags:
+tags: python
 ---
 # mac下安装ipython
 最精想好在电脑上安装ipython通过下属命令安装

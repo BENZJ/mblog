@@ -1,7 +1,7 @@
 ---
 title: Markdown入门
 date: 2017-04-24 18:27:09
-tags:
+tags: Markdown
 thumbnail: http://oowki3u7j.bkt.clouddn.com/timg.jpg
 ---
 本文简单的介绍了Markdown的一些基本的语法。

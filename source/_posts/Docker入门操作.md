@@ -1,7 +1,7 @@
 ---
 title: Docker入门操作
 date: 2017-04-30 10:55:40
-tags:
+tags: docker
 ---
 # Docker容器的入门操作
 
@@ -42,3 +42,5 @@ docker run 命令后面可以跟镜像的名字，或者是镜像的uuid值，uu
 $ sudo docker rm $(docker ps -a -q)
 ```
 ### 用Dockerfile来创建新的镜像
+
+### docker exe 对启动的镜像执行指令
