@@ -20,6 +20,7 @@ hexo init xxxx
 ```bash
 hexo s
 ```
+如果出现 cannot Get/ 错误，请在目录下执行npm install
 
 ## 发布
 ```bash
