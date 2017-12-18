@@ -71,7 +71,7 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    avatar: "http://oowki3u7j.bkt.clouddn.com/logo.jpeg"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
@@ -125,6 +125,7 @@ prettify:
     enable: true
     #theme: "vibrant-ink"
     theme: "github-v2"
+    line_number: true
 
 #    Hanabi (https://github.com/egoist/hanabi)
 #        line_number: [true/false] # Show line number for code block
@@ -158,7 +159,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
+    email: jbcbenz@gmail.com
     facebook: "https://www.facebook.com/facebook"
     twitter: "https://twitter.com/twitter"
     googleplus: "https://www.google.com/"
@@ -240,7 +241,7 @@ comment:
     valine_leancloud_appKey:  # leancloud application app key
     valine_notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
     valine_verify: false # valine verify code (true/false)
-    valine_pageSize: 10 # comment list page size
+    valine_pageSize: 5 # comment list page size
     valine_avatar: identicon # gravatar style https://valine.js.org/#/avatar
     valine_lang: zh-cn # i18n
     valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
@@ -262,7 +263,7 @@ search:
 #     baidu | google | cnzz
 analytics:
     google_site_id:
-    baidu_site_id:
+    baidu_site_id: d29e62fc1bdfd67e23b33bb21fee3152
     cnzz_site_id:
 
 # Leancloud Views
