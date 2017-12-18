@@ -2,6 +2,7 @@
 title: GAN生成对抗网络
 date: 2017-12-17 09:44:09
 tags: 机器学习
+categories: 机器学习
 thumbnail: http://oowki3u7j.bkt.clouddn.com/Ganimg.png
 ---
 

@@ -2,6 +2,7 @@
 title: NASM汇编
 date: 2017-05-25 16:10:25
 tags:
+categories: 学习笔记
 ---
 # NASM汇编
 解释chapter3/a/pmtest1.asm中的汇编代码

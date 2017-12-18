@@ -2,6 +2,7 @@
 title: notebook远程访问密码设置
 date: 2017-05-28 16:47:35
 tags:
+categories: 应用
 ---
 # notebook远程访问密码设置
 

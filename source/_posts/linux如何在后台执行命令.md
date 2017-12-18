@@ -14,6 +14,6 @@ ipython notebook &
 
 ## 方式二 采用 nohup 与&方式
 ```bash
-# nohup ipython notebook &
+nohup ipython notebook &
 ```
 采用nohup会在后台一直运行即使关闭当前终端，关闭进程的话可以使用ps命令查看进程号，然后kill命令关闭进程。

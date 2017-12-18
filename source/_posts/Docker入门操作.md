@@ -2,6 +2,7 @@
 title: Docker入门操作
 date: 2017-04-30 10:55:40
 tags: docker
+categories: 应用
 ---
 # Docker容器的入门操作
 

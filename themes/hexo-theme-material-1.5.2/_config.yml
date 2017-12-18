@@ -72,8 +72,8 @@ background:
 img:
     logo: "/img/logo.png"
     avatar: "http://oowki3u7j.bkt.clouddn.com/logo.jpeg"
-    daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.png"
+    daily_pic: "http://oowki3u7j.bkt.clouddn.com/my.png"
+    sidebar_header: "/img/daily_pic.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
         #upyun_logo:
@@ -166,7 +166,7 @@ sns:
     weibo:
     instagram:
     tumblr:
-    github:
+    github: "https://github.com/BENZJ"
     linkedin:
     zhihu:
     bilibili:
@@ -191,21 +191,29 @@ sidebar:
             icon: email
     homepage:
         use: true
-        icon: home
+        icon:
         divider: false
     archives:
         use: true
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        关于我:
+            link: "/about"
+            icon: persone
+            divider: false
+        标签云:
+            link: '/tags'
+            icon:
+            divider: false
+        时间轴:
+            link: '/timeline'
+            icon:
+            divider: false
     article_num:
         use: false
         divider: false

@@ -5,7 +5,7 @@ tags:
 ---
 # nasm在ubuntu(64位)下输出简单的字符串
 这个例子是书本汇编语言：基于LINUX环境（第3版)中的例子代码如下。
-```asm
+```nasm
 ;eatsyscall.asm
 
 SECTION .data

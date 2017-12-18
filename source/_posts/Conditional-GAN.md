@@ -2,6 +2,7 @@
 title: Conditional GAN
 date: 2017-12-18 17:46:54
 tags: 机器学习
+categories: 机器学习
 thumbnail: http://oowki3u7j.bkt.clouddn.com/Ganimg.png
 ---
 <script ty-e="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>

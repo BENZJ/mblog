@@ -2,6 +2,7 @@
 title: NASM汇编
 date: 2017-05-24 16:39:25
 tags:
+categories: 应用
 ---
 # SASM安装教程
 [SASM](http://dman95.github.io/SASM/english.html)是一个汇编的IDE

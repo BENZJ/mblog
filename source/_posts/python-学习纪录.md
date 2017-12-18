@@ -2,6 +2,7 @@
 title: python 学习纪录
 date: 2017-05-06 15:41:18
 tags:
+categories: 学习笔记
 ---
 这篇博客用来纪录自己在python学习过程中的每日收获
 # python语法习惯

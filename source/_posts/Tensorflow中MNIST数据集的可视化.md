@@ -2,6 +2,7 @@
 title: Tensorflow中MNIST数据集的可视化
 date: 2017-09-19 14:45:33
 tags:
+categories: 机器学习
 ---
 # Tensorflow中MNIST数据集的可视化
 在学习Tensorflow深度学习的过程中首先学习的例子就是MNIST数据集,但是在tf中观察他就是一个纯数组.不能给人直观的理解,所以我想将这些数据抓换成图片输出看一下

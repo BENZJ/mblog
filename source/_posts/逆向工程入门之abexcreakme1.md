@@ -2,6 +2,7 @@
 title: 逆向工程入门之abexcreakme1
 date: 2017-04-22 21:52:48
 tags: 逆向工程
+categories: 计算机原理
 thumbnail: /img/逆向工程入门之abexcreakme1/head.png
 ---
 ## 关于学习逆向工程

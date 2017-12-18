@@ -2,6 +2,7 @@
 title: vim常用操作
 date: 2017-06-25 21:01:59
 tags:
+categories: 应用
 ---
 # vim常用命令
 

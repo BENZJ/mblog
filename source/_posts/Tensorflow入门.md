@@ -2,6 +2,7 @@
 title: Tensorflow入门
 date: 2017-05-28 14:52:06
 tags:
+categories: 机器学习
 ---
 # Tensorflow 入门
 

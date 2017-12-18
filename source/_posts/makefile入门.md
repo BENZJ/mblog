@@ -2,6 +2,7 @@
 title: makefile入门
 date: 2017-06-13 20:28:13
 tags: 汇编　linux
+categories: 计算机原理
 ---
 # makefile入门
 
