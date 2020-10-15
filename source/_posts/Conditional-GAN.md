@@ -1,14 +1,13 @@
 ---
 title: Conditional GAN
 date: 2017-12-18 17:46:54
-tags: 机器学习
+tags:
+- 机器学习
+- Gan
 categories: 机器学习
 thumbnail: http://oowki3u7j.bkt.clouddn.com/Ganimg.png
 ---
 <script ty-e="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-
-
 # Conditional GAN(条件GAN)
 Conditional GAN是在GAN的基础上提出的，普通的GAN只能随机的生成图像，我们很难通过随机的噪声来控制生成我们想要的图像。所以在这样的基础上提出了条件GAN。原始的[论文地址](https://arxiv.org/abs/1411.1784)，若还不是很清楚GAN的具体原理，可以参考[上一篇博客](http://benzj.me/2017/12/17/GAN%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C/).下面还是和上一篇一样用mnist的例子来解释条件GAN
 
@@ -16,13 +15,8 @@ Conditional GAN是在GAN的基础上提出的，普通的GAN只能随机的生�
 ### 公式说明
 
 #### 普通GAN的结构公式
-
-
 $$\min\limits_{G}\max\limits_{D} = \mathbb{E}_{x\sim p\_data(x)}[\log D(x)] + \mathbb{E}_{z\sim p\_data(z)}[\log (1-D(x))]$$
-
 #### Conditional GAN公式结构
-
-
 $$\min\limits_{G}\max\limits_{D} = \mathbb{E}_{x\sim p\_data(x)}[\log D(x|y)] + \mathbb{E}_{z\sim p\_data(z)}[\log (1-D(x|y))]$$
 
 从公式上我们大致可以这样的理解就是在生成图像和鉴别图像的时后都加上了一个相同的y作为条件，所以称这种GAN为条件GAN
@@ -95,14 +89,10 @@ samples = sess.run(G_sample, feed_dict={Z: Z_sample, y:y_sample})
 #### 实现效果
 ![gif](http://oowki3u7j.bkt.clouddn.com/c_gan.gif)
 #### 代码地址
-我的代码地址 http://oowki3u7j.bkt.clouddn.com/conditional_gan.zip
-
+我的代码地址 http://oowki3u7j.bkt.clouddn.com/conditional_gan.zip</br>
 原始作者代码地址 https://github.com/wiseodd/generative-models/blob/master/GAN/conditional_gan/cgan_tensorflow.py
 
 ## 总结
 在这个实验中在生成和对抗网络训练的时候都分别加入了他们呢对应的标签当作条件GAN中的条件y。所以我们在最后生成图像的时候比如我们想要得到的是5我们就把y设置为5，这样到最后生成图像会全部都是5.
 ## 参考
-原作者博客 https://wiseodd.github.io/techblog/2016/12/24/conditional-gan-tensorflow/
-
-markdown公式问题
-http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/
+https://wiseodd.github.io/techblog/2016/12/24/conditional-gan-tensorflow/

@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.benzj.me
+url: https://benzj.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,3 +72,6 @@ deploy:
   type: git
   repo: https://github.com/BENZJ/benzj.github.io.git
   branch: master
+
+sitemap:
+    path: sitemap.xml

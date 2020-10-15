@@ -71,8 +71,8 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "http://oowki3u7j.bkt.clouddn.com/logo.jpeg"
-    daily_pic: "http://oowki3u7j.bkt.clouddn.com/my.png"
+    avatar: "https://benz-blog.oss-cn-beijing.aliyuncs.com/my.jpeg"
+    daily_pic: "https://benz-blog.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%9F%8E.jpeg"
     sidebar_header: "/img/daily_pic.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
@@ -214,6 +214,8 @@ sidebar:
             link: '/timeline'
             icon:
             divider: false
+        # 搜索:
+
     article_num:
         use: false
         divider: false
@@ -235,7 +237,7 @@ sidebar:
 # If you want to use gitment or gitalk,you should get the client_id and client_secret form https://github.com/settings/applications/new
 # If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://valine.js.org
 comment:
-    use: livere
+    use: gitalk
     shortname: # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
@@ -254,23 +256,23 @@ comment:
     valine_lang: zh-cn # i18n
     valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
     valine_guest_info: nick,mail,link #valine comment header info
-    gitalk_repo: # git repo of the hexo
-    gitalk_owner: # git repo's owner
-    gitalk_client_id: # github app client id
-    gitalk_client_secret: # github app client secret
+    gitalk_repo: benzj.github.io # git repo of the hexo
+    gitalk_owner: benzj # git repo's owner
+    gitalk_client_id: 7ed34101545b7f063d71 # github app client id
+    gitalk_client_secret: 9fc221166d8ea5a6e13769cd03286a18fcc9c375 # github app client secret
 
 # Search Systems
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
-    swiftype_key:
+    use: swiftype
+    swiftype_key: _hUwmsty74kVWL1434YK
 
 # Analytics Systems
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    google_site_id:
+    google_site_id: UA-179014613-1
     baidu_site_id: d29e62fc1bdfd67e23b33bb21fee3152
     cnzz_site_id:
 

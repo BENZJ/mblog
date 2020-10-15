@@ -2,7 +2,7 @@
 title: About Me
 date:
 comment: false
-thumbnail: http://oowki3u7j.bkt.clouddn.com/djsy.jpeg
+thumbnail: https://benz-blog.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%9F%8E.jpeg
 ---
 # 关于我
 

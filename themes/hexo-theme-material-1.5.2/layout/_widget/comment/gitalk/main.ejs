@@ -5,6 +5,8 @@
 
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
+<script src="/js/md5.js"></script>
+
 <script>
     var gitalk = new Gitalk({
             clientID: '<%= theme.comment.gitalk_client_id %>',
@@ -12,6 +14,7 @@
             repo: '<%= theme.comment.gitalk_repo %>',
             owner: '<%= theme.comment.gitalk_owner %>',
             admin: ['<%= theme.comment.gitalk_owner %>'],
+            id: md5(location.pathname),
             // facebook-like distraction free mode
             distractionFreeMode: false
         })
